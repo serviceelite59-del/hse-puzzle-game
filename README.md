@@ -3,7 +3,6 @@
 A web-based puzzle game focused on Health, Safety, and Environment (HSE) training.
 
 ## 🚀 How to Host
-
 ### Option 1: GitHub Pages
 1. Push all files to a GitHub repository
 2. Go to **Settings → Pages**
@@ -20,8 +19,3 @@ A web-based puzzle game focused on Health, Safety, and Environment (HSE) trainin
 - Score tracking
 - Certificate download
 - Fully responsive — works on mobile & desktop
-
-## 📁 Files Included
-- `index.html` - Main HTML file
-- `style.css` - Styling
-- `script.js` - Game logic and functionality
