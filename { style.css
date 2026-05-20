@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f8f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.screen {
+  display: none;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.screen.active {
+  display: block;
+}
+
+h1, h2, h3 {
+  color: #2c6e49;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+input, .btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #2c6e49;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #205037;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  background: #e8f5e9;
+  padding: 0.8rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+#puzzle-content {
+  margin: 1.5rem 0;
+  min-height: 200px;
+}
+
+.feedback {
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.feedback.correct {
+  background: #d4edda;
+  color: #155724;
+}
+
+.feedback.wrong {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Puzzle specific styles */
+.matching-pair {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.sequence-item {
+  padding: 0.7rem;
+  margin: 0.4rem 0;
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 4px;
+  cursor: move;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  background: #f1f8e9;
+  border: 1px solid #c5e1a5;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.option-btn:hover {
+  background: #dcedc8;
+}
